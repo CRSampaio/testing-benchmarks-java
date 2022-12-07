@@ -8,7 +8,7 @@ To create a new Java project using Maven, we can run:
 
     mvn -B archetype:generate -DgroupId=org.crsampaio -DartifactId=testing-benchmarks-java -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=RELEASE
 
-Alrigth, now let's break this down:
+Alright, now let's break this down:
   - **mvn =** Maven executable
   - **-B =** It's telling Maven to run the command in batch mode (ot quiet mode)
   - **archetype:generate** = This is our goal, i.e. 
